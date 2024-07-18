@@ -9,7 +9,7 @@ See https://github.com/reactjs/react-codemod/issues/314
 $ cd react-codemod-patched
 $ npm i
 $ npm link
-``
+```
 
 ## Usage
 
