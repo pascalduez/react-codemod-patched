@@ -1,0 +1,17 @@
+{
+  "name": "react-codemod-patched",
+  "version": "0.1.0",
+  "main": "./bin/react-codemod-patched.js",
+  "bin": {
+    "react-codemod-patched": "./bin/react-codemod-patched.js"
+  },
+  "overrides": {
+    "jscodeshift": "$jscodeshift",
+    "ast-types": "npm:@gkz/ast-types",
+    "flow-parser": "0.152"
+  },
+  "devDependencies": {
+    "jscodeshift": "^0.16.1",
+    "react-codemod": "^5.4.4"
+  }
+}
